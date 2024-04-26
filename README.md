@@ -18,7 +18,15 @@ python3 -m venv venv
 ./venv/bin/pip install neovim
 ```
 
-I'm use Python 3.12, but you can use Python 3.11 as latest LTS version.
+I use Python 3.12, but you can use Python 3.11 as latest LTS version. After that you can clone this repo and install:
+
+```shell
+git clone https://github.com/jtprogru/BearNvChad.git
+# Run NeoVim
+nvim
+# Install all
+:Lazy sync
+```
 
 ## LSP Prepare
 
