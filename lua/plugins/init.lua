@@ -84,4 +84,7 @@ return {
     opts = overrides.todo_comments,
     lazy = false,
   },
+  {
+    "petobens/poet-v",
+  },
 }
