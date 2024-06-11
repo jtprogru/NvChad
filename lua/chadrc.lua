@@ -5,8 +5,8 @@ local highlights = require "configs.highlights"
 local M = {}
 
 M.ui = {
-  theme = "rosepine",
-  theme_toggle = { "rosepine", "one_light" },
+  theme = "one_light",
+  theme_toggle = { "doomchad", "one_light" },
 
   statusline = {
     theme = "vscode_colored",
