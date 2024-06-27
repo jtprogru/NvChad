@@ -65,6 +65,9 @@ M.mason = {
     "tflint",
     "terraform-ls",
     "tfsec",
+    -- Jsonnet
+    "jsonnet-language-server",
+    "jsonnetfmt",
   },
 }
 
