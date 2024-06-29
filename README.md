@@ -8,6 +8,16 @@ Based on example config for [NvChad](https://nvchad.com).
 
 Do check the https://github.com/NvChad/nvcommunity
 
+## Fast install
+
+For fast installation please use [install.sh](install.sh):
+
+```shell
+git clone https://github.com/jtprogru/NvChad.git $HOME/.config/nvim
+nvim +MasonInstallAll
+nvim
+```
+
 ## NeoVim Prepare
 
 Create virtual environment:
@@ -21,7 +31,7 @@ python3 -m venv venv
 I use Python 3.12, but you can use Python 3.11 as latest LTS version. After that you can clone this repo and install:
 
 ```shell
-git clone https://github.com/jtprogru/BearNvChad.git
+git clone https://github.com/jtprogru/NvChad.git $HOME/.config/nvim
 # Run NeoVim
 nvim
 # Install all
@@ -76,8 +86,6 @@ npm install -g pyright
 
 For more info read in official documentation – [server configurations](https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md).
 
-
 ## License
 
 MIT
-
