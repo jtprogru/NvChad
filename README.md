@@ -14,6 +14,14 @@ For fast installation please use [install.sh](install.sh):
 
 ```shell
 git clone https://github.com/jtprogru/NvChad.git $HOME/.config/nvim
+cd $HOME/.config/nvim 
+./install.sh
+```
+
+For manual installation:
+
+```shell
+git clone https://github.com/jtprogru/NvChad.git $HOME/.config/nvim
 nvim +MasonInstallAll
 nvim
 ```

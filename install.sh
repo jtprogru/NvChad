@@ -58,7 +58,7 @@ printf "In Neovim run \n:Lazy sync\ncommand for update plugins"
 
 echo "Installing all Mason plugins"
 
-nvim +MasonInstallAll
+# nvim +MasonInstallAll
 
 echo "All done!"
 echo "Happy coding... :)"
