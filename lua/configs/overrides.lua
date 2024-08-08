@@ -37,8 +37,8 @@ M.mason = {
     "ansible-lint",
     "yamllint",
     -- Bash
-    "bash-language-server",
-    "shellcheck",
+    -- "bash-language-server",
+    -- "shellcheck",
     -- Python
     "autopep8",
     "black",

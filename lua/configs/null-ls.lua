@@ -31,11 +31,11 @@ local sources = {
   diagnostics.cppcheck,
 
   -- Bash
-  formatting.shellharden,
-  diagnostics.shellcheck,
+  -- formatting.shellharden,
+  -- diagnostics.shellcheck,
 
   -- Markdonw
-  formatting.remark,
+  -- formatting.remark,
 
   -- Ansible
   formatting.yamlfmt,
@@ -62,4 +62,3 @@ null_ls.setup {
   sources = sources,
   autostart = true,
 }
-
