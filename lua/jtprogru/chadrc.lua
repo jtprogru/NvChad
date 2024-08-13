@@ -1,10 +1,9 @@
-local highlights = require "configs.highlights"
+local highlights = require "jtprogru.configs.highlights"
 
 local M = {}
 
-M.ui = {
-  theme = "one_light",
-  theme_toggle = { "doomchad", "one_light" },
+M.base46 = {
+  theme = "doomchad",
 
   statusline = {
     theme = "vscode_colored",

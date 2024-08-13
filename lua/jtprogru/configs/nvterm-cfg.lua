@@ -1,5 +1,6 @@
 return {
   require("nvterm").setup {
+    
     terminals = {
       shell = vim.o.shell,
       list = {},

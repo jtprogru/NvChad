@@ -6,10 +6,10 @@ local diagnostics = null_ls.builtins.diagnostics
 local sources = {
   -- Python
   formatting.black,
-  formatting.isort.with(require "configs.isort"),
+  formatting.isort.with(require "jtprogru.configs.isort"),
   formatting.autopep8,
-  diagnostics.flake8.with(require "configs.flake8"),
-  diagnostics.pylint.with(require "configs.pylint"),
+  diagnostics.flake8.with(require "jtprogru.configs.flake8"),
+  diagnostics.pylint.with(require "jtprogru.configs.pylint"),
 
   -- Lua
   formatting.stylua,
@@ -50,11 +50,6 @@ local sources = {
 
   -- Dockerfile
   diagnostics.hadolint,
-
-  -- TODO: Hmmmm... Enable this magic, or not?
-  -- formatting.ocdc,
-  -- formatting.nginx_beautifier,
-  -- formatting.jsonnetfmt,
 }
 
 null_ls.setup {
