@@ -22,3 +22,15 @@ vim.o.cursorlineopt = "both" -- to enable cursorline!
 vim.g.poetv_executables = { "poetry", "pipenv" }
 vim.g.poetv_auto_activate = 1
 vim.g.poetv_statusline_symbol = "💡"
+
+vim.filetype.add {
+  extension = {
+    gotmpl = "gotmpl",
+  },
+  pattern = {
+    [".*/templates/.*%.gotmpl"] = "helm",
+    [".*/.*%.gotmpl"] = "helm",
+    [".*/templates/.*%.ya?ml"] = "helm",
+    ["helmfile.*%.ya?ml"] = "helm",
+  },
+}
